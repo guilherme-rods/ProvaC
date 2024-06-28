@@ -1,9 +1,10 @@
+using System.IdentityModel.Tokens.Jwt;
+using System.Text;
+using System.Text.Json;
+using Microsoft.IdentityModel.Tokens;
+
 namespace loja.settings
 {
-    using System.IdentityModel.Tokens.Jwt;
-    using System.Text;
-    using System.Text.Json;
-    using Microsoft.IdentityModel.Tokens;
     public class Authentication
     {
         string GenerateToken()
@@ -36,6 +37,7 @@ namespace loja.settings
             var json = JsonDocument.Parse(body);
             var email = json.RootElement.GetProperty("email").GetString();
             var senha = json.RootElement.GetProperty("senha").GetString();
+            
             using (var scope = app.Services.CreateScope())
             {
                 var dbContext = scope.ServiceProvider.GetRequiredService<loja.data.LojaDbContext>();

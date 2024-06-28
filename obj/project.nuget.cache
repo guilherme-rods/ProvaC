@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y69lHWxztjlQH3pi4ZVoo4Vm6CtxzThTDlfOygGH6ZkDigUnbUcHqgk9mrxE+04nFkcjZVoOh/Z6j+zeESqT6Q==",
+  "dgSpecHash": "28IKyhq1h68bGXBTeB0kQI5tLosXqcXNqYN2epj/7mk548lJff6ahb0cDhvXQPmnECoIzYAyUCpFInLn8c4U2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guilh\\Documents\\5. Curso - Análise e Desenvolvimento de Sistemas\\5.2 - 1º semestre 2024\\5.2.3 - Tópicos Especiais de Sistemas\\ProvaTopicos\\Loja.csproj",
+  "projectFilePath": "C:\\Users\\guilh\\Documents\\5. Curso - Análise e Desenvolvimento de Sistemas\\5.2 - 1º semestre 2024\\5.2.3 - Tópicos Especiais de Sistemas\\Loja\\Loja.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guilh\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\guilh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
